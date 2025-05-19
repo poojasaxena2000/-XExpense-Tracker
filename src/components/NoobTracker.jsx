@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./Noobtracker.module.css";
+import styles from "./NoobTracker.module.css";
 
 const COLORS = ["#FF9304", "#FFBB28", "#A000FF"];
 
@@ -278,7 +278,7 @@ const ExpenseApp = () => {
   console.log("first", expenses);
   return (
     <div className={styles.box1}>
-      <h1 className={styles.h1tag}>Expense Tracker</h1>
+      {/* <h1 className={styles.h1tag}>Expense Tracker</h1> */}
       <div className={styles.box2}>
         <section className={styles.wallet}>
           <h3 className={styles.walletBalance}>

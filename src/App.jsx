@@ -1,5 +1,5 @@
 import "./App.css";
-import ExpenseTracker from "./components/ExpenseTracker";
+
 import ExpenseApp from "./components/NoobTracker";
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
+
               stroke="currentColor"
               className="size-6"
             >
@@ -23,7 +24,7 @@ export default function App() {
               />
             </svg>
 
-            <h1 className="text-2xl font-bold text-white ">Expense Tracker</h1>
+            <h1 className="text-2xl font-bold  ">Expense Tracker</h1>
           </div>
         </header>
         <ExpenseApp />
@@ -31,3 +32,4 @@ export default function App() {
     </section>
   );
 }
+
